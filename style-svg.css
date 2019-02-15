@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Googly Blocks Color';
+	src: url('GooglyBlocksColor-SVG.woff2') format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Googly Blocks';
+	src: url('GooglyBlocks-Regular.woff2') format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container {
+	margin: 0 1em 0 0;
+	padding: 0 1em 0 1em;
+	background-color: black;
+}
+
+.gb {
+	font-family: 'Googly Blocks', sans-serif;
+	font-weight: normal;
+}
+
+.gbc {
+	font-family: 'Googly Blocks Color', sans-serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	color: rgb(210, 32, 39);
+}
+
+.gb-huge {
+	font-size: 9em;
+}
+
+.gbc-large {
+	font-size: 4em;
+}
